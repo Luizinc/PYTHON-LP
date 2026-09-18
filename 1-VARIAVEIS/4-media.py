@@ -16,5 +16,5 @@ print("Nome: ", nome)
 print("idade: ", idade)
 print("primeira nota: ", primeira_nota )
 print("segunda nota: ", segunda_nota)
-print("Media:", media)
+print("Media: ", media)
 

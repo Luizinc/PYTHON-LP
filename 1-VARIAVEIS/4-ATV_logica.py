@@ -12,4 +12,4 @@ numero = float(input('numero3: '))
 resultado= max(numero1,numero2)
 resultado= min(numero1,numero2)
 
-print(f'\nnumero1: {numero1}'
+print('f\numero1: {numero1')
