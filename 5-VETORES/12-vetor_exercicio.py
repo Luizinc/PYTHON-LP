@@ -24,19 +24,19 @@ while True:
             if nome == '':
                 print('o nome nao pode ficar vazio.')
             elif nome in lista_series:
-             print(f'{nome} ja esta cadastrado.')
+                print(f'{nome} ja esta cadastrado.')
             else:
-              lista_series.append(nome)
-              print('serie cadastrado com sucesso!')
-              input('Pressione uma tecla para continuar...')
-              
+                lista_series.append(nome)
+                print('serie cadastrado com sucesso!')
+            input('Pressione uma tecla para continuar...')
+
         case 2:
             print('\n== LISTAR TODAS AS SERIES ==')
             if len(lista_series)== 0:
                 print('o estoque de series esta vazio')
             else:
-             for i, serie in enumerate(lista_series):
-                print(f'{i+1}. {serie}')
+                for i, serie in enumerate(lista_series):
+                 print(f'{i+1}. {serie}')
             print(f'total de produtos: {len(lista_series)}')
             input('\nPressione uma tecla para continuar...')
             os.system('cls')
