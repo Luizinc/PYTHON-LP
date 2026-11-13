@@ -4,7 +4,7 @@ os.system('cls')
 #sem parametros
 def logo_senai():
     print('='*15)
-    print('   SENAI')
+    print('     SENAI')
     print('='*15)
 
 
