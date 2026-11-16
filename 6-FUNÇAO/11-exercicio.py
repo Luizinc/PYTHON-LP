@@ -20,8 +20,8 @@ def calculo_divisao(numero1, numero2):
     return resultado
 
 print(f'= RECEBENDO NUMEROS =')
-numero1 = int(input('digite um numero: '))
-numero2 = int(input('digite um numero: '))
+numero1 = float(input('digite um numero: '))
+numero2 = float(input('digite um numero: '))
 
 resultado_soma = calculo_soma(numero1, numero2)
 resultado_subtracao = calculo_subtracao(numero1, numero2)
